@@ -1,8 +1,8 @@
 # Image Captioning
 
-This project uses neural networks (CNN and RNN) to automatically generate captions from images. I used the Microsoft Common Objects in COntext (MS COCO) dataset to train the network.
+This project uses neural networks (CNN and RNN) to automatically generate captions from images. I used the Microsoft Common Objects in COntext [(MS COCO) dataset](http://cocodataset.org/#home) to train the network.
 
-# Project Files
+## Project Files
 The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order:
 
 * 0_Dataset.ipynb - use COCO API to obtain the data
@@ -10,7 +10,7 @@ The project is structured as a series of Jupyter notebooks that are designed to 
 * 2_Training.ipynb - train the model
 * 3_Inference.ipynb - use trained model for image captioning on images
 
-# Instructions  
+## MS COCO Instructions  
 1. Clone this repo: https://github.com/cocodataset/cocoapi  
 ```
 git clone https://github.com/cocodataset/cocoapi.git  
